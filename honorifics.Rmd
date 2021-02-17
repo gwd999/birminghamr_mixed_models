@@ -31,11 +31,11 @@ library(brms) # for Bayesian mixed models
 R and package versions for reporting and reproducibility:
 
 ```{r}
-R.Version()
+R.Version() # 
 packageVersion('tidyverse')
-packageVersion('lme4')
-packageVersion('afex')
-packageVersion('brms')
+packageVersion('lme4') # 1.1.26 - IMPORTANT newer versions have changes to algortthms  
+packageVersion('afex') 
+packageVersion('brms') #2.13.3
 ```
 
 Load the *honorifics.csv* dataset:
